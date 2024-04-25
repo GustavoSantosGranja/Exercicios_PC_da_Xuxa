@@ -59,13 +59,13 @@
     <input type="button" value="Esconder Div" onclick="esconderdiv()"/>
     <!--Fim Botão 09-->
     
-    <!-- Botão 10 - -->
+    <!-- Botão 10 - Reaparece Div -->
     <input type="button" value="Reaparecer Div" onclick="reaparecediv()" />
     <!--Fim Botão 10-->
     
-    <!-- Botão X - -->
-    <input type="button" value="X" />
-    <!--Fim Botão X-->
+    <!-- Botão 11 - não -->
+    <input type="button" value="Não" onclick="nao()" />
+    <!--Fim Botão 11-->
     
     <!-- Botão X - -->
     <input type="button" value="X" />
@@ -162,13 +162,14 @@
       document.getElementById("manipula").style.display = "block"
 
     }
-    //fim do Botão X
+    //fim do Botão 10
   
-    // Botão X - xx
-    function x() {
+    // Botão 11 - Não
+    function nao() {
+      document.getElementsByClassName("chamada")[0].innerHTML = "Neste Botão Não"
 
     }
-    //fim do Botão X
+    //fim do Botão 11
   
     // Botão X - xx
     function x() {
